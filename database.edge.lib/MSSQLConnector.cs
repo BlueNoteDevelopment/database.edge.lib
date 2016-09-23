@@ -8,7 +8,7 @@ namespace database.edge.lib
 {
     public class MsSqlConnector
     {
-        public Task<Object> Invoke(dynamic input)
+        public  Task<Object> Invoke(dynamic input)
         {
             return null;
         }

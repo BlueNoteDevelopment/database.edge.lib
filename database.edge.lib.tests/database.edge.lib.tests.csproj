@@ -89,6 +89,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="conversion\DataTableConverterTests.cs" />
     <Compile Include="OdbcConnectorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="providers\OdbcProviderFactoryTests.cs" />
