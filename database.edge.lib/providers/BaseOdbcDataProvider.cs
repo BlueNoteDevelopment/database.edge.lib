@@ -20,16 +20,17 @@ namespace database.edge.lib.providers
                 using (OdbcConnection cn = new OdbcConnection(ConnectionString))
                 {
                     cn.Open();
+                    OdbcDataAdapter da = new OdbcDataAdapter(sql, cn);
+                    DataTable dt = new DataTable();
+                    da.Fill(dt);
 
+                    return dt;
                 }
             }
             catch(OdbcException)
             {
                 throw;
             }
-
-            
-            throw new NotImplementedException();
         }
 
 

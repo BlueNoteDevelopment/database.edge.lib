@@ -9,6 +9,32 @@ namespace database.edge.lib.tests.providers
     [TestClass]
     public class OdbcBaseProviderTest
     {
+        private string _testDsn = "Test1";
+
+        [TestMethod]
+        public void ExecuteSqValidConnection()
+        {
+            IDataBaseProvider db = OdbcProviderFactory.CreateOdbcProvider("DSN", _testDsn);
+
+            try
+            {
+                db.ExecuteSelectQuery("SELECT * FROM Users");
+                Assert.IsTrue(true);
+            }
+            catch (OdbcException odbcEx)
+            {
+                Assert.Fail();
+            }
+            catch (Exception ex)
+            {
+                Assert.Fail();
+            }
+
+        }
+
+
+
+
         [TestMethod]
         public void ExecuteSqlInvalidConnection()
         {
