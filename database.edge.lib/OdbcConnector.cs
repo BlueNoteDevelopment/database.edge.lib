@@ -25,16 +25,35 @@ namespace database.edge.lib
             object[] sqlparams = { };
             string dsn = "";
             string command = "";
+            string table = "";
 
-            if (OdbcHelper.IsPropertyExist(input, "dsn")){dsn = (string)input.dsn;}
-            if (OdbcHelper.IsPropertyExist(input, "command")){command = (string)input.command;}
+
+            if (DbHelper.IsPropertyExist(input, "dsn")){dsn = (string)input.dsn;}
+            if (DbHelper.IsPropertyExist(input, "command")){command = (string)input.command;}
+            if (DbHelper.IsPropertyExist(input, "table")) { table = (string)input.table; }
 
             try
             {
                 sqlparams = (object[])input.@params;
             }catch (Exception) { }
 
-            IDataBaseProvider db =   OdbcProviderFactory.CreateOdbcProvider("DSN", dsn);
+            command = command.Trim();
+            table = table.Trim();
+
+            if (String.IsNullOrWhiteSpace(command) && !String.IsNullOrWhiteSpace(table))
+            {
+                command = "SELECT * FROM " + table;
+            }
+
+            if (command.ToUpperInvariant().StartsWith("INSERT") ||
+                command.ToUpperInvariant().StartsWith("UPDATE") ||
+                command.ToUpperInvariant().StartsWith("DELETE"))
+            {
+                throw new InvalidOperationException("Only SELECT commands are Supported");
+            }
+
+
+            IDataBaseProvider db =   DBProviderFactory.CreateDBProvider("DSN", dsn);
 
             if (db != null)
             {
@@ -44,7 +63,7 @@ namespace database.edge.lib
 
                 //Todo implement formats
 
-                return DataTableConverter.ConvertDataTableToJSON(dt);
+                return DataTableConverter.ConvertDataTableToRowCol(dt);
 
             }else
             {

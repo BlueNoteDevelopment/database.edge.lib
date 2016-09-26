@@ -85,6 +85,7 @@
     <Compile Include="conversion\Table.cs" />
     <Compile Include="providers\BaseOdbcDataProvider.cs" />
     <Compile Include="providers\IDataBaseProvider.cs" />
+    <Compile Include="providers\MSSQLServerDataProvider.cs" />
     <Compile Include="providers\OdbcFileDataProvider.cs" />
     <Compile Include="providers\OdbcDSNDataProvider.cs" />
     <Compile Include="MsSqlConnector.cs" />

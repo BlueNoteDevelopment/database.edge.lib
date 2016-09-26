@@ -14,7 +14,7 @@ namespace database.edge.lib.tests.providers
         [TestMethod]
         public void ExecuteSqValidDSNConnection()
         {
-            IDataBaseProvider db = OdbcProviderFactory.CreateOdbcProvider("DSN", _testDsn);
+            IDataBaseProvider db = DBProviderFactory.CreateDBProvider("DSN", _testDsn);
 
             try
             {
@@ -39,7 +39,7 @@ namespace database.edge.lib.tests.providers
         public void ExecuteSqlInvalidDSNConnection()
         {
             string dsn = "InvalidDSNName";
-            IDataBaseProvider db = OdbcProviderFactory.CreateOdbcProvider("DSN", dsn);
+            IDataBaseProvider db = DBProviderFactory.CreateDBProvider("DSN", dsn);
 
             try
             {
