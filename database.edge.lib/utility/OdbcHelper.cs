@@ -22,5 +22,15 @@ namespace database.edge.lib.utility
 
             
         }
+
+
+        public static string MapParameters(string command, object[] param)
+        {
+
+
+            throw new NotImplementedException();
+        }
+
+
     }
 }
