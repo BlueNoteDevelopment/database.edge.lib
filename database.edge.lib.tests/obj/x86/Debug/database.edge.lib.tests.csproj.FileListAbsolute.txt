@@ -1,0 +1,9 @@
+C:\Projects\komodoApi\Edge\database.edge.lib\database.edge.lib.tests\bin\x86\Debug\database.edge.lib.tests.dll
+C:\Projects\komodoApi\Edge\database.edge.lib\database.edge.lib.tests\bin\x86\Debug\database.edge.lib.tests.pdb
+C:\Projects\komodoApi\Edge\database.edge.lib\database.edge.lib.tests\bin\x86\Debug\database.edge.lib.dll
+C:\Projects\komodoApi\Edge\database.edge.lib\database.edge.lib.tests\bin\x86\Debug\database.edge.lib.pdb
+C:\Projects\komodoApi\Edge\database.edge.lib\database.edge.lib.tests\obj\x86\Debug\database.edge.lib.tests.csprojResolveAssemblyReference.cache
+C:\Projects\komodoApi\Edge\database.edge.lib\database.edge.lib.tests\obj\x86\Debug\database.edge.lib.tests.dll
+C:\Projects\komodoApi\Edge\database.edge.lib\database.edge.lib.tests\obj\x86\Debug\database.edge.lib.tests.pdb
+C:\Projects\komodoApi\Edge\database.edge.lib\database.edge.lib.tests\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Projects\komodoApi\Edge\database.edge.lib\database.edge.lib.tests\bin\x86\Debug\Newtonsoft.Json.xml

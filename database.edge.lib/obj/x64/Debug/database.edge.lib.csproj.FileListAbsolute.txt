@@ -1,0 +1,7 @@
+C:\Projects\komodoApi\Edge\database.edge.lib\database.edge.lib\bin\x64\Debug\database.edge.lib.dll
+C:\Projects\komodoApi\Edge\database.edge.lib\database.edge.lib\bin\x64\Debug\database.edge.lib.pdb
+C:\Projects\komodoApi\Edge\database.edge.lib\database.edge.lib\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Projects\komodoApi\Edge\database.edge.lib\database.edge.lib\bin\x64\Debug\Newtonsoft.Json.xml
+C:\Projects\komodoApi\Edge\database.edge.lib\database.edge.lib\obj\x64\Debug\database.edge.lib.dll
+C:\Projects\komodoApi\Edge\database.edge.lib\database.edge.lib\obj\x64\Debug\database.edge.lib.pdb
+C:\Projects\komodoApi\Edge\database.edge.lib\database.edge.lib\obj\x64\Debug\database.edge.lib.csprojResolveAssemblyReference.cache

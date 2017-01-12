@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace database.edge.lib.providers
 {
+    //data provider for ODBC
     internal class OdbcFileDataProvider : BaseOdbcDataProvider, IDataBaseProvider
     {
         public OdbcFileDataProvider(string filename)

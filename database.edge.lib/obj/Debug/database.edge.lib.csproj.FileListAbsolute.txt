@@ -1,0 +1,5 @@
+C:\Projects\komodoApi\Edge\database.edge.lib\database.edge.lib\bin\Debug\database.edge.lib.dll
+C:\Projects\komodoApi\Edge\database.edge.lib\database.edge.lib\bin\Debug\database.edge.lib.pdb
+C:\Projects\komodoApi\Edge\database.edge.lib\database.edge.lib\obj\Debug\database.edge.lib.dll
+C:\Projects\komodoApi\Edge\database.edge.lib\database.edge.lib\obj\Debug\database.edge.lib.pdb
+C:\Projects\komodoApi\Edge\database.edge.lib\database.edge.lib\obj\Debug\database.edge.lib.csprojResolveAssemblyReference.cache

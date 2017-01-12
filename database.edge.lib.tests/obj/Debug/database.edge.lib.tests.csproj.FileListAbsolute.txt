@@ -1,0 +1,7 @@
+C:\Projects\komodoApi\Edge\database.edge.lib\database.edge.lib.tests\bin\Debug\database.edge.lib.tests.dll
+C:\Projects\komodoApi\Edge\database.edge.lib\database.edge.lib.tests\bin\Debug\database.edge.lib.tests.pdb
+C:\Projects\komodoApi\Edge\database.edge.lib\database.edge.lib.tests\bin\Debug\database.edge.lib.dll
+C:\Projects\komodoApi\Edge\database.edge.lib\database.edge.lib.tests\bin\Debug\database.edge.lib.pdb
+C:\Projects\komodoApi\Edge\database.edge.lib\database.edge.lib.tests\obj\Debug\database.edge.lib.tests.csprojResolveAssemblyReference.cache
+C:\Projects\komodoApi\Edge\database.edge.lib\database.edge.lib.tests\obj\Debug\database.edge.lib.tests.dll
+C:\Projects\komodoApi\Edge\database.edge.lib\database.edge.lib.tests\obj\Debug\database.edge.lib.tests.pdb
